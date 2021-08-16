@@ -29,7 +29,15 @@ $ awk -v FS=,   '{print $3}' 2021VAERSVAX.csv  | sort | uniq -c | sort -n
  ```
 
  
-
+```
+$ wc -l 20{17,18,19,20,21}VAERSVAX.csv
+   52753 2017VAERSVAX.csv
+   62306 2018VAERSVAX.csv
+   61205 2019VAERSVAX.csv
+   59414 2020VAERSVAX.csv
+  454935 2021VAERSVAX.csv
+  690613 total
+  ```
 
 
 
