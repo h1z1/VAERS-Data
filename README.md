@@ -1,1 +1,1 @@
-# VAERS-Data
+Public data from VAERS.
